@@ -1,0 +1,15 @@
+/* global variables */
+:root{
+     --backgroundColor: wheat;
+     --buttonColor:rgb(95, 18, 18);
+}
+body{
+     background-color:var(--backgroundColor) ;
+}
+button{
+     background-color: var(--buttonColor);
+     color: var(--backgroundColor);
+}
+#word-display span {
+     margin: 10px;
+ }
